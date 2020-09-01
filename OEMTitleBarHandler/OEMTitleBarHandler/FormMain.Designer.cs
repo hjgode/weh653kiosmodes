@@ -39,6 +39,7 @@
             this.mnuHideMainMenu = new System.Windows.Forms.MenuItem();
             this.mnuSIPIcon = new System.Windows.Forms.MenuItem();
             this.mnuStartMenuShow = new System.Windows.Forms.MenuItem();
+            this.mnuLockTaskbar = new System.Windows.Forms.MenuItem();
             this.mnuTitleBarList = new System.Windows.Forms.MenuItem();
             this.mnuSetHandler = new System.Windows.Forms.MenuItem();
             this.mnuResetHandler = new System.Windows.Forms.MenuItem();
@@ -61,7 +62,7 @@
             this.mnuBlacklistEnable = new System.Windows.Forms.MenuItem();
             this.mnuAllKeys = new System.Windows.Forms.MenuItem();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.mnuLockTaskbar = new System.Windows.Forms.MenuItem();
+            this.menuItemNoStartNoDone = new System.Windows.Forms.MenuItem();
             this.SuspendLayout();
             // 
             // mainMenu1
@@ -81,6 +82,7 @@
             this.mnuOptions.MenuItems.Add(this.mnuConnectPopup);
             this.mnuOptions.MenuItems.Add(this.mnuShFullScreen);
             this.mnuOptions.MenuItems.Add(this.mnuStartIconTestForm);
+            this.mnuOptions.MenuItems.Add(this.menuItemNoStartNoDone);
             this.mnuOptions.MenuItems.Add(this.mnuNotificationsEnable);
             this.mnuOptions.MenuItems.Add(this.mnuBlacklistIExplore);
             this.mnuOptions.MenuItems.Add(this.mnuAllKeys);
@@ -129,6 +131,11 @@
             this.mnuStartMenuShow.Checked = true;
             this.mnuStartMenuShow.Text = "Start Menu";
             this.mnuStartMenuShow.Click += new System.EventHandler(this.mnuStartMenuShow_Click);
+            // 
+            // mnuLockTaskbar
+            // 
+            this.mnuLockTaskbar.Text = "Lock Taskbar";
+            this.mnuLockTaskbar.Click += new System.EventHandler(this.mnuLockTaskbar_Click);
             // 
             // mnuTitleBarList
             // 
@@ -258,10 +265,10 @@
             this.textBox1.Size = new System.Drawing.Size(240, 268);
             this.textBox1.TabIndex = 0;
             // 
-            // mnuLockTaskbar
+            // menuItemNoStartNoDone
             // 
-            this.mnuLockTaskbar.Text = "Lock Taskbar";
-            this.mnuLockTaskbar.Click += new System.EventHandler(this.mnuLockTaskbar_Click);
+            this.menuItemNoStartNoDone.Text = "Form without Start and Done";
+            this.menuItemNoStartNoDone.Click += new System.EventHandler(this.menuItemNoStartNoDone_Click);
             // 
             // FormMain
             // 
@@ -316,6 +323,7 @@
         private System.Windows.Forms.MenuItem mnuAllKeys;
         private System.Windows.Forms.MenuItem mnuReplaceRemnet;
         private System.Windows.Forms.MenuItem mnuLockTaskbar;
+        private System.Windows.Forms.MenuItem menuItemNoStartNoDone;
     }
 }
 

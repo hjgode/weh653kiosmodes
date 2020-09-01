@@ -1,0 +1,9 @@
+D:\svn\wehkiosmodes\OEMTitleBarHandler\OEMTitleBarHandler\bin\Debug\OEMTitleBarHandler.exe
+D:\svn\wehkiosmodes\OEMTitleBarHandler\OEMTitleBarHandler\bin\Debug\OEMTitleBarHandler.pdb
+D:\svn\wehkiosmodes\OEMTitleBarHandler\OEMTitleBarHandler\obj\Debug\ResolveAssemblyReference.cache
+D:\svn\wehkiosmodes\OEMTitleBarHandler\OEMTitleBarHandler\obj\Debug\OEMTitleBarHandler.FormMain.resources
+D:\svn\wehkiosmodes\OEMTitleBarHandler\OEMTitleBarHandler\obj\Debug\OEMTitleBarHandler.LockDownTestForm.resources
+D:\svn\wehkiosmodes\OEMTitleBarHandler\OEMTitleBarHandler\obj\Debug\OEMTitleBarHandler.Properties.Resources.resources
+D:\svn\wehkiosmodes\OEMTitleBarHandler\OEMTitleBarHandler\obj\Debug\OEMTitleBarHandler.csproj.GenerateResource.Cache
+D:\svn\wehkiosmodes\OEMTitleBarHandler\OEMTitleBarHandler\obj\Debug\OEMTitleBarHandler.exe
+D:\svn\wehkiosmodes\OEMTitleBarHandler\OEMTitleBarHandler\obj\Debug\OEMTitleBarHandler.pdb

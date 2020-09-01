@@ -15,5 +15,21 @@ namespace OEMTitleBarHandler
             InitializeComponent();
             label1.Text = "This form will show without StartIcon. The registry changes are done before the form is shown. \r\nOn close, the registry changes are reverted.";
         }
+
+        private void label2_ParentChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void LockDownTestForm_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+                this.Close();
+        }
     }
 }

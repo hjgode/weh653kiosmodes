@@ -391,5 +391,15 @@ namespace OEMTitleBarHandler
                 addText("enableTaskbar failed");
         }
 
+        private void menuItemNoStartNoDone_Click(object sender, EventArgs e)
+        {
+            Lockdown.LockDown.SaveRegistryFullScreen();
+            Lockdown.LockDown.SetRegistryFullScreen(true, true, false);
+            LockDownTestForm frm = new LockDownTestForm();
+            frm.ShowDialog();
+            Lockdown.LockDown.RestoreRegistryFullScreen();
+            frm.Dispose();
+        }
+
     }
 }
